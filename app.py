@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH = os.path.join(BASE_DIR, 'data', 'recipes.json')
 
 app = Flask(__name__)
-CORS(app)  # 啟用 CORS，允許所有來源跨網域請求
+CORS(app)
 
 DEFAULT_CATEGORIES = ['cookies', 'cakes', 'breads']
 
