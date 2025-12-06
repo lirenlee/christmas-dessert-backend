@@ -3,7 +3,7 @@ import os
 import random
 import re
 from copy import deepcopy
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, url_for
 from flask_cors import CORS
 from dotenv import load_dotenv
 
@@ -348,7 +348,19 @@ def recommend():
 
     enriched = []
     for recipe, reason in zip(recommended, reasons):
-        image_path = recipe.get('image') or f"/static/images/{recipe.get('id')}.png"
+        # 優先使用 recipes.json 的 image 欄位，若無則用 id 對應檔名
+        img_field = recipe.get('image')
+        if img_field:
+            # 若已是完整 URL 或 /static/ 開頭，直接使用
+            if img_field.startswith(('http://', 'https://', '/static/')):
+                image_path = img_field
+            else:
+                # 否則用 url_for 建立完整 URL
+                image_path = url_for('static', filename=img_field.lstrip('/'), _external=True)
+        else:
+            # 預設以 id 對應 static/images/{id}.png
+            image_path = url_for('static', filename=f"images/{recipe.get('id')}.png", _external=True)
+        
         enriched.append({
             'name': recipe.get('name'),
             'ai_reason': reason,

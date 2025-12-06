@@ -9,6 +9,7 @@
       {
         "id": 1,
         "name": "英國：雪球曲奇（Melting Moments）",
+        "image": "images/雪球曲奇.png",
         "country": "UK",
         "ingredients": [
           "無鹽奶油 100g",
@@ -41,6 +42,7 @@
       {
         "id": 2,
         "name": "法國：香草新月餅乾（Vanillekipferl）",
+        "image": "images/香草新月餅乾.png",
         "country": "FR",
         "ingredients": [
           "杏仁粉 100g",
@@ -68,6 +70,7 @@
       {
         "id": 3,
         "name": "義大利：杏仁餅乾（Amaretti）",
+        "image": "images/杏仁餅乾.png",
         "country": "IT",
         "ingredients": [
           "杏仁粉 150g",
@@ -95,6 +98,7 @@
       {
         "id": 4,
         "name": "瑞典：薑餅星（Pepparkakor）",
+        "image": "images/薑餅星.png",
         "country": "SE",
         "ingredients": [
           "低筋麵粉 300g",
@@ -125,6 +129,7 @@
       {
         "id": 5,
         "name": "奧地利：林茲餅乾（Linzer Cookies）",
+        "image": "images/林茲餅乾.png",
         "country": "AT",
         "ingredients": [
           "低筋麵粉 240g",
@@ -157,6 +162,7 @@
       {
         "id": 1,
         "name": "Bûche de Noël（法國聖誕樹幹蛋糕）",
+        "image": "images/聖誕樹幹蛋糕.png",
         "country": "FR",
         "ingredients": [
           "雞蛋 4 顆",
@@ -192,6 +198,7 @@
       {
         "id": 2,
         "name": "Panettone（義大利帕內托內）",
+        "image": "images/帕內托內.png",
         "country": "IT",
         "ingredients": [
           "高筋麵粉 300g",
@@ -225,6 +232,7 @@
       {
         "id": 3,
         "name": "Stollen（德國施托倫）",
+        "image": "images/施托倫.png",
         "country": "DE",
         "ingredients": [
           "高筋麵粉 250g",
@@ -257,6 +265,7 @@
       {
         "id": 4,
         "name": "Sachertorte（奧地利薩赫蛋糕）",
+        "image": "images/薩赫蛋糕.png",
         "country": "AT",
         "ingredients": [
           "黑巧克力 120g",
@@ -290,6 +299,7 @@
       {
         "id": 5,
         "name": "Dundee Cake（英國鄧地蛋糕）",
+        "image": "images/鄧地蛋糕.png",
         "country": "UK",
         "ingredients": [
           "奶油 150g",
@@ -320,6 +330,7 @@
       {
         "id": 6,
         "name": "Mazurek（波蘭馬祖列克蛋糕）",
+        "image": "images/波蘭馬祖列克蛋糕.png",
         "country": "PL",
         "ingredients": [
           "奶油 150g",
@@ -347,6 +358,7 @@
       {
         "id": 7,
         "name": "Bienenstich（德國蜂巢蛋糕）",
+        "image": "images/蜂巢蛋糕.png",
         "country": "DE",
         "ingredients": [
           "麵糰（麵粉、牛奶、糖、奶油、酵母）",
@@ -374,6 +386,7 @@
       {
         "id": 8,
         "name": "Kerstkrans（荷蘭花環蛋糕）",
+        "image": "images/荷蘭花環蛋糕.png",
         "country": "NL",
         "ingredients": [
           "奶油 100g",
@@ -405,6 +418,7 @@
       {
         "id": 1,
         "name": "Zopf（瑞士辮子麵包）",
+        "image": "images/捷克辮子麵包.png",
         "country": "CH",
         "ingredients": [
           "高筋麵粉 500g",
@@ -434,6 +448,7 @@
       {
         "id": 2,
         "name": "Challah（猶太編辮麵包）",
+        "image": "images/捷克辮子麵包.png",
         "country": "IL",
         "ingredients": [
           "高筋麵粉 600g",
@@ -462,6 +477,7 @@
       {
         "id": 3,
         "name": "Irish Soda Bread（愛爾蘭蘇打麵包）",
+        "image": "images/愛爾蘭蘇打麵包.png",
         "country": "IE",
         "ingredients": [
           "中筋麵粉 450g",
@@ -486,6 +502,7 @@
       {
         "id": 4,
         "name": "Pulla（芬蘭豆蔻甜麵包）",
+        "image": "images/芬蘭豆蔻甜麵包.png",
         "country": "FI",
         "ingredients": [
           "高筋麵粉 500g",
@@ -514,6 +531,7 @@
       {
         "id": 5,
         "name": "Babka（波蘭/猶太甜捲麵包）",
+        "image": "images/芬蘭豆蔻甜麵包.png",
         "country": "PL",
         "ingredients": [
           "高筋麵粉 500g",
@@ -542,6 +560,7 @@
       {
         "id": 6,
         "name": "Pan de Pascua（智利節日麵包）",
+        "image": "images/智利節日麵包.png",
         "country": "CL",
         "ingredients": [
           "中筋麵粉 400g",
