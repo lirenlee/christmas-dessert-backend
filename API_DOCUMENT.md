@@ -171,13 +171,24 @@ fetch('https://christmas-dessert-backend.onrender.com/recommend', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
   body: JSON.stringify({
-    type: 'Cookie',
-    time: 60,
+    type: 'All',
+    time: null,
     restrictions: []
   })
 })
 .then(res => res.json())
-.then(data => console.log(data));
+.then(data => {
+  console.log('推薦結果：', data);
+  // 顯示甜點資訊
+  data.results.forEach(dessert => {
+    console.log('名稱：', dessert.name);
+    console.log('推薦理由：', dessert.ai_reason);
+    console.log('圖片：', dessert.image_path);
+    console.log('食材：', dessert.ingredients);
+    console.log('---');
+  });
+})
+.catch(err => console.error('錯誤：', err));
 
 // 聖誕祝福卡
 fetch('https://christmas-dessert-backend.onrender.com/christmas_card', {
